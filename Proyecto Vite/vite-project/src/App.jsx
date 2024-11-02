@@ -1,22 +1,14 @@
-import './App.css'
-import Saludo from "./Components/Saludo"
-import Card from "./Components/Card"
+import './App.css';
+import "./styles/Card.module.css";
+import Home from "./Components/Home";
+
+
+
 
 function App() {
   return (
     <>
-      <Saludo nombre="Juan">Hola</Saludo>
-
-      <Card>
-        <button>Agregar</button>
-      </Card>
-      <Card>
-        <button>Quitar</button>
-      </Card>
-      <Card>
-        <button>Almacenar</button>
-      </Card>
-      
+      <Home/>
     </>
   )
 }
